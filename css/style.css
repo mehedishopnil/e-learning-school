@@ -1,0 +1,360 @@
+body {
+    font-family: poppins;
+}
+
+/* Header */
+.header-container {
+    background-color: #F0FFF0;
+    height: 100px;
+}
+
+.hero-section {
+    
+    padding: 100px 0px;
+    left: 0px;
+    top: 0px;
+    background: #F0FFF0;
+}
+
+.align-items-center {
+    align-items: center !important;
+    margin-right: -100px !important;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+}
+
+.container {
+    padding: 10px 10px;
+}
+
+.navbar-text {
+    background-color: #F0FFF0;
+    text-align: end;
+
+}
+
+
+.col-md-8 .bg-light {
+    background-color: #f0fff0 !important;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: white !important;
+    background-color: #21B573;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins';
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #21B573;
+    color: #21B573 !important;
+
+}
+
+.nav-link:active {
+    color: #21B573;
+}
+
+.nav-text {
+    text-align: end;
+}
+
+/* hero section */
+.hero-section {
+    margin-top: -10px;
+    padding: 100px 0px;
+}
+
+.hero-section-img img {
+    height: 350px;
+}
+
+.hero-sec-btn {
+    text-decoration: none;
+    color: white !important;
+    background-color: #21B573;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.col-md-6.hero-section-text {
+    padding-right: 100px;
+}
+
+.hero-section-text h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+
+}
+
+.hero-section-text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.hero-section-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+/* Cattegory */
+
+.container.cattegory-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cattegory-box {
+
+    width: 270px;
+    height: 270px;
+    left: 135px;
+    top: 618px;
+    text-align: center;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    padding-top: 60px;
+
+}
+
+.cattegory-box:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.cattegory-box img {
+    height: 100px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.cattegory-box h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.cattegory-box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Online Courses */
+.course-header {
+    text-align: center;
+    padding: 20px 0px 50px;
+}
+
+.course-sec-btn {
+    text-decoration: none;
+    color: white !important;
+    background-color: #21B573;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+
+}
+
+.course-row img {
+    width: 331px;
+    height: 234px;
+    left: 154px;
+    top: 1126px;
+
+    background: url(.jpg), #CFB6B6;
+    border-radius: 11px;
+}
+
+.course-row h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 10px;
+}
+
+.course-update {
+    margin-top: 5px !important;
+}
+
+.course-row p {
+    font-family: 'Poppins';
+    color: #6C6B6B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.course-update p {
+    font-family: 'Poppins';
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.row.course-update {
+    margin-top: 24px !important;
+}
+
+.course-inner-info {
+    width: 370px;
+    height: 483px;
+    left: 135px;
+    top: 1102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 20px 0px 0px 20px;
+}
+
+.course-inner-info:hover {
+    border: 0.25px solid #27d486e1;
+    border-radius: 18px;
+}
+
+.course-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Testimonial */
+.testimonial {
+    padding: 30px 0px 100px;
+}
+
+.container-testimonial h1 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.testimonial-img {
+    width: 120px;
+    height: 120px;
+    margin-top: -10px;
+    margin-right: 20px;
+
+
+}
+
+.testimonial-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 150px 0px 10px;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer {
+    height: 415px;
+    left: 0px;
+    top: 2013px;
+    background: #282531;
+    color: white;
+}
+
+.footer-content-1 {
+    width: 364px;
+    height: 60px;
+    left: 143px;
+    top: 2068px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 50px 20px;
+}
+
+.col-md-4.footer-content-2 {
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 50px 237px 0px 0px;
+}
+
+.col-md-4.footer-content-3 {
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 50px 170px 0px 0px;
+}
+
+.footer-content-tile {
+    font-weight: 700;
+}
+
+/* Copyright */
+.copyright {}
+
+.copyright p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    text-align: center;
+    padding: 20px 0px 0px;
+}
